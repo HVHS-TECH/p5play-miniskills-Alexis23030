@@ -9,11 +9,9 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: ");
-	cnv = new Canvas(100, 100);
-	cam = new Sprite(0, 0, 10, 10);
+	cnv = new Canvas(1000, 1000);
+	cam = new Sprite(150, 150, 50, 50, '30');
 	cam.color = '#FF0000';
-	tom = new Sprite(10, 10, 10);
-	tom.color = '#FF0010';
 }
 	
 /*******************************************************/
