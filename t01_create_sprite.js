@@ -8,7 +8,7 @@
 // setup()
 /*******************************************************/
 function setup() {
-	console.log("setup: ");
+	console.log("setup: m");
 	cnv = new Canvas(1000, 1000);
 	cam = new Sprite(150, 150, 50, 50, '30');
 	cam.color = '#FF0000';
