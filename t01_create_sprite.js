@@ -8,8 +8,8 @@
 // setup()
 /*******************************************************/
 function setup() {
-	console.log("setup: th");
-	cnv = new Canvas(1000, 1000);
+	console.log("setup: ");
+	cnv = new Canvas(windowWidth, (windowHeight - 10));
 	cam = new Sprite(150, 150, 50, 50, '30');
 	cam.color = '#FF0000';
 }
@@ -18,7 +18,7 @@ function setup() {
 // draw()
 /*******************************************************/
 function draw() {
-	ackground('#ffffff');
+	background('#ffffff');
 }
 
 /*******************************************************/

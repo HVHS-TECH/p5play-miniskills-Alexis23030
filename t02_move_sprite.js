@@ -9,14 +9,19 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: ");
-
+	cnv = new Canvas(windowWidth, (windowHeight - 10));
+	cam = new Sprite(150, 150, 50, 50, '30');
+	cam.color = '#FF0000';
+	cam.rotationSpeed = 2;
+	cam.vel.x = 2;
+	cam.vel.y = 1;
 }
 	
 /*******************************************************/
 // draw()
 /*******************************************************/
 function draw() {
-	
+	background('#ffffff');
 }
 
 /*******************************************************/
