@@ -22,6 +22,11 @@ function setup() {
 	jac.rotationSpeed = 2;
 	jac.vel.x = 1;
 	jac.vel.y = 2;
+	tom = new Sprite(150, 500, 50, 50, 'k');
+	tom.color = '#2600ff';
+	tom.rotationSpeed = 2;
+	tom.vel.x = 1;
+	tom.vel.y = 2;
 }
 	
 /*******************************************************/
