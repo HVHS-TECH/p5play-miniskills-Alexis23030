@@ -4,15 +4,6 @@
 // Written by ???
 /*******************************************************/
 
-
-/*******************************************************/
-// preload()
-/*******************************************************/
-function preload() {
-  imgBG   = loadImage('assets/images/space.jfif');
-  imgFace = loadImage('assets/images/face.png');
-}
-
 /*******************************************************/
 // setup()
 /*******************************************************/
@@ -47,8 +38,6 @@ function setup() {
 	ball_1.bounciness = 1;
 	ball_1.friction = 0;
 	ball_1.drag = 0;
-	ball_1.image = (imgFace);
-	imgFace.resize(50, 50);
 
 	platform_1 = new Sprite(600, 300, 200, 10, 'k');
 	platform_2 = new Sprite(800, 700, 200, 10, 'k');
@@ -101,7 +90,7 @@ _ssss.remove();
 // draw()
 /*******************************************************/
 function draw() {
-	background(imgBG); 
+	background('#ffffff'); 
 }
 
 
