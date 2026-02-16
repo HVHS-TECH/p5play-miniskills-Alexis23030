@@ -53,6 +53,19 @@ if (kb.released('left')) {
 	tom.vel.x = 0;
 };
 
+if (kb.pressing('up')) {
+	tom.vel.y = -4;
+}
+else if (kb.pressing ('down')) {
+	tom.vel.y = 4; 
+};
+
+if (kb.released('up')) {
+	tom.vel.y = 0;
+} else if (kb.released ('down')) {
+	tom.vel.y = 0;
+};
+
 
 
 text("Hello World", 50, 50) 

@@ -60,7 +60,6 @@ spriteY=  random(50,150);  ;
 
 cnv = new Canvas(width, height);
 
-
 red = new Sprite(spriteX/2, spriteY/2 ,spriteX,spriteY);
 red.color = 'red';
 
