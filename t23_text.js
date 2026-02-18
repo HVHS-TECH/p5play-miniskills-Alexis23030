@@ -17,7 +17,7 @@ function setup() {
 	cam.rotationSpeed = 2;
 	cam.vel.x = 2;
 	cam.vel.y = 1;
-	jac = new Sprite(200, 150, 50, 50, 's');
+	jac = new Sprite(200, 150, 50, 's');
 	jac.color = '#2600ff';
 	jac.rotationSpeed = 2;
 	jac.vel.x = 1;
