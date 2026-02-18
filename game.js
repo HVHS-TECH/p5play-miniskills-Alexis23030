@@ -62,13 +62,11 @@ function draw() {
 	background('#ffffff');
     player.vel.x = direction * 4
 
-if (kb.pressed('left')) {
+if (kb.presses('left')) {
     direction= -1;
-
 }
-else if (kb.pressed('right')) {
+else if (kb.presses('right')) {
     direction = 1;
-
 };
 
 } 
